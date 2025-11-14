@@ -1,7 +1,9 @@
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital@0;1&family=Nunito:ital,wght@1,900&display=swap" rel="stylesheet">
     <link href='style.css' rel='stylesheet' type='text/css'>
-    <title>Pestikone - Ilves26</title>
+    <title>Pestikone - Ilves26 | Kysymykset</title>
     <link rel="icon" type="x-icon" href="icon.png">
     <link rel="shortcut icon" type="x-icon" href="icon.png">
     <meta charset="utf-8">
@@ -47,7 +49,7 @@
         }
         function init_question() {
             document.getElementById("question-text").innerHTML = questions[qn].question;
-            document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (questions.length);
+            document.getElementById("question-number").innerHTML = "Kysymys " + (qn + 1) + " / " + (questions.length);
             if (qn == 0) {
                 document.getElementById("back_button").style.display = 'none';
                 document.getElementById("back_button_off").style.display = 'block';

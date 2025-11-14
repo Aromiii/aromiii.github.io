@@ -1,5 +1,5 @@
 html {
-    background-color: #bbbbbb;
+    background-color: #e7d2a9;
     padding: 0px;
     scroll-behavior: smooth;
 }
@@ -8,8 +8,8 @@ body {
     min-height: calc(100vh - 4em);
     margin: 0 auto;
     padding: 2em;
-    background-color: #dddddd;
-    border-color: #eeeeee;
+    background-color: #ffffff;
+    border-color: #f3e9d4;
     border-left-style: solid;
     border-right-style: solid;
     border-width: 20px;
@@ -44,13 +44,11 @@ p.axis_name {
 p.question {
     margin: 16pt auto;
     color: #333333;
-    font-family: 'Nunito', sans-serif;
-    font-style: italic;
+    font-family: 'Jost', sans-serif;
     font-weight: normal;
     width: 70%;
     min-width: 500pt;
     min-height: 144pt;
-    background-color: #eeeeee;
     padding: 16pt;
     border-radius: 16pt;
     font-size: 36pt;
@@ -67,8 +65,8 @@ h1 {
     font-style: italic;
     text-align: center;
     line-height: 72pt;
-    margin-top: 0pt;
-    margin-bottom: 0pt;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 h2 {
     color: #333333;
@@ -87,8 +85,7 @@ a {
     font-family: inherit;
 }
 div.center {
-    background-color: #eeeeee;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-style: italic;
     border-radius: 8pt;
     padding: 6pt;
@@ -129,7 +126,7 @@ div.axis_name {
     text-align: center;
 }
 .button {
-    background-color: #2196f3;
+    background-color: #80884f;
     font-family: 'Nunito', sans-serif;
     font-style: italic;
     border: none;
@@ -145,7 +142,7 @@ div.axis_name {
     margin: -2px auto;
     cursor: pointer;
 }
-.button:hover, .button:focus { background: #1687e0; }
+.button:hover, .button:focus { background: #5d643a; }
 .stronglyAgree { background: #1b5e20; }
 .stronglyAgree:hover, .stronglyAgree:focus { background: #154a19; }
 .agree { background: #4caf50; }
