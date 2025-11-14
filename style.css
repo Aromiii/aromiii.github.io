@@ -290,3 +290,25 @@ span.weight-300 {
     margin-left: auto;
     margin-right: auto;
 }
+.axis-bar {
+    display: inline-flex;
+    vertical-align: middle;
+    width: 100%;
+    height: 50px;
+    border: 4px solid #111;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.axis-fill {
+    background: #ce5738;  /* your color */
+    height: 100%;
+    transition: width 0.3s ease;
+}
+
+.axis-rest {
+    background: #f3e9d4; /* gray remainder */
+    flex-grow: 1;
+    height: 100%;
+}
+
